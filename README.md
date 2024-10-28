@@ -22,6 +22,10 @@ Directly download the node source package, then extract it into the custom_nodes
 
 Install through ComfyUI-Manager by searching for '`ComfyUI-BiRefNet-TRT`' and installing it.
 
+### Requirements
+
+Repository:https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+
 ## Usage
 
 The demo workflow placed in `ComfyUI-BiRefNet-TRT/workflow`
@@ -38,4 +42,4 @@ TRT weights should be converted with ComfyUI_TensorRT and placed in ComdyUI/mode
 
 Thanks to BiRefNet repo owner  [ZhengPeng7/BiRefNet](https://github.com/zhengpeng7/birefnet)
 
-Some of the code references [MoonHugo/ComfyUI-BiRefNet-Hugo](https://github.com/MoonHugo/ComfyUI-BiRefNet-Hugo) 
+Some of the code references [MoonHugo/ComfyUI-BiRefNet-Hugo](https://github.com/MoonHugo/ComfyUI-BiRefNet-Hugo)
