@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-birefnet-trt"
+description = "This repository wraps the latest BiRefNet model as ComfyUI nodes. Compared to the previous model, the latest model offers higher and better matting accuracy.Support TensorRT."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "timm"]
+
+[project.urls]
+Repository = "https://github.com/jesenzhang/ComfyUI-BiRefNet-TRT.git"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "jesenzhang"
+DisplayName = "ComfyUI-BiRefNet-TRT"
+Icon = ""
